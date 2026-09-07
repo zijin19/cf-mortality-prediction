@@ -1,0 +1,28 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Never commit source or derived patient-level data.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Large/reconstructable generated objects. Aggregate tables and figures under
+# outputs/ remain eligible for a portfolio commit after the pipeline is run.
+outputs/models/
+outputs/tables/all_predictions.csv
+
+# Local archives and confidential working notebooks.
+*.rds
+*.RDS
+*.csv.gz
+
+# macOS metadata
+.DS_Store
+._*
+
+CF-Prediction-full.Rmd
+ZijinCheng2024.pdf

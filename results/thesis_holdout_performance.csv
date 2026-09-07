@@ -1,0 +1,10 @@
+model,c_statistic,calibration_slope,calibration_intercept,brier_score,net_benefit,source
+Logistic - Forward,0.9409,1.0311,-0.1273,0.0237,0.0040,Thesis Table 4.2 holdout
+Logistic - Backward,0.9409,1.0311,-0.1273,0.0237,0.0040,Thesis Table 4.2 holdout
+Logistic - Group lasso,0.9338,1.2544,-0.0412,0.0254,0.0012,Thesis Table 4.2 holdout
+Cox - Forward,0.9390,1.1250,-0.0379,0.0231,0.0032,Thesis Table 4.2 holdout
+Cox - Backward,0.9390,1.1250,-0.0379,0.0231,0.0032,Thesis Table 4.2 holdout
+Cox - Group lasso,0.9421,1.1583,0.1417,0.0245,0.0016,Thesis Table 4.2 holdout
+Landmark Cox - Forward,0.8777,0.8753,1.1132,0.0606,0.0058,Thesis Table 4.2 holdout
+Landmark Cox - Backward,0.8777,0.8753,1.1132,0.0606,0.0058,Thesis Table 4.2 holdout
+Landmark Cox - Group lasso,0.8577,0.3232,-3.2776,0.1612,-0.1344,Thesis Table 4.2 holdout

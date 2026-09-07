@@ -1,0 +1,19 @@
+model,framework,selection,set,fold,n,events,c_statistic,calibration_slope,calibration_intercept,brier_score,net_benefit
+Cox - Backward,cox,backward,CV mean,NA,1212.4,38.4,0.6315,0.4244,-1.9377,0.0304,-0
+Cox - Backward,cox,backward,Holdout,NA,671,20,0.6305,0.4083,-1.9785,0.0297,0
+Cox - Forward,cox,forward,CV mean,NA,1212.4,38.4,0.6315,0.4244,-1.9377,0.0304,-0
+Cox - Forward,cox,forward,Holdout,NA,671,20,0.6305,0.4083,-1.9785,0.0297,0
+Cox - Group lasso,cox,group_lasso,CV mean,NA,1212.4,38.4,0.6967,1.1466,0.4492,0.0299,0
+Cox - Group lasso,cox,group_lasso,Holdout,NA,671,20,0.5857,0.3776,-2.1295,0.0293,0
+Landmark Cox - Backward,landmark,backward,CV mean,NA,380.6,12.8,0.5512,0.3771,-2.2032,0.035,0
+Landmark Cox - Backward,landmark,backward,Holdout,NA,298,13,0.5825,0.8797,-0.3026,0.0415,0
+Landmark Cox - Forward,landmark,forward,CV mean,NA,380.6,12.8,0.5392,0.3034,-2.4344,0.0351,0
+Landmark Cox - Forward,landmark,forward,Holdout,NA,298,13,0.5825,0.8797,-0.3026,0.0415,0
+Landmark Cox - Group lasso,landmark,group_lasso,CV mean,NA,380.6,12.8,0.5742,0.4929,-1.8858,0.0361,-0.001
+Landmark Cox - Group lasso,landmark,group_lasso,Holdout,NA,298,13,0.5601,-0.1001,-3.4285,0.043,-0.0034
+Logistic - Backward,logistic,backward,CV mean,NA,1212.4,38.4,0.6994,0.9853,-0.0595,0.0297,0
+Logistic - Backward,logistic,backward,Holdout,NA,671,20,0.5898,0.3492,-2.2146,0.0294,0
+Logistic - Forward,logistic,forward,CV mean,NA,1212.4,38.4,0.6994,0.9853,-0.0595,0.0297,0
+Logistic - Forward,logistic,forward,Holdout,NA,671,20,0.5898,0.3492,-2.2146,0.0294,0
+Logistic - Group lasso,logistic,group_lasso,CV mean,NA,1212.4,38.4,0.5131,1.6391,-2.3095,0.0307,0
+Logistic - Group lasso,logistic,group_lasso,Holdout,NA,671,20,0.4715,0.5718,-1.5228,0.0289,0
